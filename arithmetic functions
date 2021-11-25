@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+	int a,b,c,d;
+	float e;
+	a=40;
+	b=35;
+	c=a+b; // 75
+	printf("%d",c);
+	d=a-b;//5
+	printf("%d",d);
+	e=a/b;
+	printf("%.2f",e);

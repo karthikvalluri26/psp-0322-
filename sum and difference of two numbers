@@ -1,0 +1,18 @@
+int main()
+{
+    int a=10,b=4;
+    float c=4.0,d=2.0;
+    int e,f;
+    float g,h;
+    e=a+b;
+    printf("%d",e);
+    f=a-b;
+    printf("%d",f);
+    g=c+d;
+    printf("\n%.1f",g);
+    h=c-d;
+    printf(" %.1f",h);
+    
+    
+    return 0;
+}

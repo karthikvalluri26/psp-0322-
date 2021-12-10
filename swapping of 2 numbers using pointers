@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+   int a, b, *x, *y, temp;
+ 
+   printf("Enter the value of a and b\n");
+   scanf("%d%d", &a, &b);
+ 
+   printf("Before Swapping\na = %d\nb = %d\n", a, b);
+ 
+   x = &a;
+   y = &b;
+ 
+   temp = *y;
+   *y = *x;
+   *x = temp;
+ 
+   printf("After Swapping\na = %d\nb = %d\n", x, y);
+ 
+   return 0;
+}
+

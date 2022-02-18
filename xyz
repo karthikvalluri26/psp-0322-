@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+ int age,pno;
+ char name[15],gender;
+ FILE*fp;
+ fp=fopen("student bio.dxt","w");
+ printf("enter the name:");
+ scanf("%s",name);
+ printf("enter the age:");
+ scanf("%d",&age);
+ printf("enter the gender:");
+ scanf("%s",&gender);
+ printf("enter the pno:");
+ scanf("%s",&pno);
+ fclose(fp);
+ 
+}
